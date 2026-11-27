@@ -9,7 +9,7 @@ function createWindow() {
     minHeight: 700,
     show: false,
     autoHideMenuBar: true,
-    title: 'Elegant Stack Desktop',
+    title: 'bstack',
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,
@@ -37,7 +37,7 @@ app.whenReady().then(() => {
     framework: 'Electron + SolidJS',
     platform: process.platform,
     runtime: `Electron ${process.versions.electron}`,
-    shell: 'Elegant Stack Desktop',
+    shell: 'bstack',
   }))
 
   createWindow()

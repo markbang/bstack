@@ -1,5 +1,5 @@
-appId: com.elegant-stack.desktop
-productName: Elegant Stack Desktop
+appId: com.bstack.desktop
+productName: bstack
 directories:
   buildResources: build
 files:
@@ -13,9 +13,9 @@ files:
   - "!*.tsbuildinfo"
   - "!{.env,.env.*,.npmrc,README.md}"
 win:
-  executableName: elegant-stack-desktop
+  executableName: bstack
 nsis:
-  artifactName: ${name}-${version}-setup.${ext}
+  artifactName: bstack-${version}-setup.${ext}
   shortcutName: ${productName}
   uninstallDisplayName: ${productName}
   createDesktopShortcut: always
@@ -26,16 +26,16 @@ mac:
     - NSMicrophoneUsageDescription: Application requests access to the device's microphone.
   notarize: false
 dmg:
-  artifactName: ${name}-${version}.${ext}
+  artifactName: bstack-${version}.${ext}
 linux:
-  executableName: elegant-stack-desktop
+  executableName: bstack
   target:
     - AppImage
     - deb
-  maintainer: Elegant Stack <maintainer@example.com>
+  maintainer: bstack <maintainer@example.com>
   category: Utility
 appImage:
-  artifactName: ${name}-${version}.${ext}
+  artifactName: bstack-${version}.${ext}
 npmRebuild: false
 electronDownload:
   mirror: https://npmmirror.com/mirrors/electron/

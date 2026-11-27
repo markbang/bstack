@@ -15,7 +15,7 @@ describe('api', () => {
 
     expect(response.status).toBe(200)
     expect(payload.ok).toBe(true)
-    expect(payload.service).toBe('Elegant Stack API')
+    expect(payload.service).toBe('bstack API')
   })
 
   it('creates a user with validated input/output contracts', async () => {

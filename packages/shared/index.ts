@@ -1,8 +1,8 @@
 import { entries, find, mapValues } from 'remeda'
 
 export const brand = {
-  name: 'Elegant Stack',
-  docsName: 'Elegant Stack Docs',
+  name: 'bstack',
+  docsName: 'bstack docs',
   tagline: 'Bun monorepo template',
   heroTitle: '一个适合继续扩展的全栈模板仓库。',
   heroDescription:

@@ -2,9 +2,9 @@
   "name": "desktop",
   "version": "0.1.0",
   "private": true,
-  "description": "Elegant Stack desktop shell built with Electron",
-  "author": "Elegant Stack",
-  "repository": "https://github.com/markbang/fullstack",
+  "description": "bstack desktop shell built with Electron",
+  "author": "bstack",
+  "repository": "https://github.com/markbang/bstack",
   "main": "./out/main/index.js",
   "scripts": {
     "dev": "electron-vite dev",

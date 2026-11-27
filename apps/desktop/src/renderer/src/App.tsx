@@ -31,7 +31,7 @@ function App() {
         <section class="stack-panel overflow-hidden px-6 py-8 sm:px-8 sm:py-10">
           <div class="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
             <div class="max-w-2xl space-y-4">
-              <p class="stack-label">Elegant Stack Desktop</p>
+              <p class="stack-label">bstack</p>
               <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">
                 Electron shell, same elegant repo.
               </h1>

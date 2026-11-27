@@ -11,14 +11,19 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Elegant Stack · Docs',
+        title: 'bstack · Docs',
       },
       {
         name: 'description',
-        content: 'Fumadocs-powered documentation for the Elegant Stack template.',
+        content: 'Fumadocs-powered documentation for bstack.',
       },
     ],
-    links: [{ rel: 'stylesheet', href: appCss }],
+    links: [
+      { rel: 'stylesheet', href: appCss },
+      { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
+      { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
+      { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+    ],
   }),
   component: RootComponent,
 })

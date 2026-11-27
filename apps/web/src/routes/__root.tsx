@@ -11,14 +11,19 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Elegant Stack · Web',
+        title: 'bstack · Web',
       },
       {
         name: 'description',
         content: 'A polished Bun monorepo template powered by TanStack Start.',
       },
     ],
-    links: [{ rel: 'stylesheet', href: appCss }],
+    links: [
+      { rel: 'stylesheet', href: appCss },
+      { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
+      { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
+      { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+    ],
   }),
   component: RootComponent,
 })
@@ -35,7 +40,7 @@ function RootComponent() {
             <div className="stack-shell flex flex-col gap-4 py-4 sm:flex-row sm:items-center sm:justify-between">
               <a className="flex items-center gap-3 no-underline" href="/">
                 <span className="rounded-full border border-white/12 bg-white/8 p-2.5 text-accent shadow-[0_10px_32px_rgba(110,231,216,0.12)]">
-                  <span className="i-lucide-orbit text-lg" />
+                  <img alt="" className="size-5" src="/bstack-mark.svg" />
                 </span>
                 <span className="min-w-0">
                   <strong className="block text-sm font-semibold text-white">{brand.name}</strong>
