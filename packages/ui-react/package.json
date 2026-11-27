@@ -8,11 +8,11 @@
   },
   "dependencies": {
     "@repo/shared": "workspace:*",
-    "lucide-react": "^1.8.0",
-    "react": "^19.2.5"
+    "lucide-react": "^1.82.0",
+    "react": "^19.3.1"
   },
   "devDependencies": {
-    "@types/react": "^19.2.2"
+    "@types/react": "^19.3.3"
   },
   "peerDependencies": {
     "react": "^19.2.5"

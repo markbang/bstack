@@ -15,14 +15,14 @@
   },
   "dependencies": {
     "@repo/contracts": "workspace:*",
-    "drizzle-orm": "^0.45.2",
-    "hono": "^4.12.14",
-    "zod": "^4.6.5"
+    "drizzle-orm": "^0.45.4",
+    "hono": "^4.13.23",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/bun": "latest",
-    "drizzle-kit": "^0.31.10",
+    "drizzle-kit": "^0.31.11",
     "typescript": "^7.0.2"
   }
 }

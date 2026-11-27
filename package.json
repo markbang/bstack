@@ -2,7 +2,7 @@
   "name": "fullstack-template",
   "private": true,
   "license": "MIT",
-  "packageManager": "bun@1.4.2",
+  "packageManager": "bun@1.4.5",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -28,11 +28,11 @@
     "db:studio": "turbo db:studio --filter=api"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.12",
-    "@commitlint/cli": "^21.2.2",
-    "@commitlint/config-conventional": "^21.2.2",
-    "@j178/prek": "^0.5.3",
-    "knip": "^6.37.0",
-    "turbo": "^2.9.6"
+    "@biomejs/biome": "^2.6.9",
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "@j178/prek": "^0.5.12",
+    "knip": "^6.48.0",
+    "turbo": "^2.11.13"
   }
 }

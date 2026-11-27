@@ -7,6 +7,6 @@
     ".": "./index.ts"
   },
   "dependencies": {
-    "remeda": "^2.50.0"
+    "remeda": "^2.62.4"
   }
 }

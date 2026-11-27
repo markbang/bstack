@@ -7,12 +7,12 @@
     ".": "./index.ts"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.134",
+    "@iconify-json/lucide": "^1.2.160",
     "@repo/design-tokens": "workspace:*",
-    "@unocss/preset-icons": "^66.10.5",
-    "@unocss/preset-wind4": "^66.10.5",
-    "@unocss/transformer-directives": "^66.10.5",
-    "@unocss/transformer-variant-group": "^66.10.5",
-    "unocss": "^66.10.5"
+    "@unocss/preset-icons": "^66.13.0",
+    "@unocss/preset-wind4": "^66.13.0",
+    "@unocss/transformer-directives": "^66.13.0",
+    "@unocss/transformer-variant-group": "^66.13.0",
+    "unocss": "^66.13.0"
   }
 }
