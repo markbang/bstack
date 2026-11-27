@@ -1,4 +1,4 @@
-import { createResource, For } from 'solid-js'
+import { createSignal, For, onSettled } from 'solid-js'
 
 const features = [
   {
@@ -19,7 +19,11 @@ const features = [
 ]
 
 function App() {
-  const [meta] = createResource(() => window.desktop.workspaceMeta())
+  const [meta, setMeta] = createSignal<WorkspaceMeta>()
+
+  onSettled(() => {
+    void window.desktop.workspaceMeta().then((value) => setMeta(value))
+  })
 
   return (
     <main class="min-h-screen py-10 text-white">

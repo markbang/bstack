@@ -20,14 +20,15 @@
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@repo/uno-config": "workspace:*",
+    "@solidjs/vite-plugin": "^3.0.1",
+    "@solidjs/web": "^2.0.4",
     "@types/node": "^26.6.11",
     "@unocss/vite": "^66.13.0",
-    "electron": "^44.11.6",
+    "electron": "^45.5.0",
     "electron-builder": "^26.18.0",
     "electron-vite": "^6.0.0",
-    "solid-js": "^1.9.20",
+    "solid-js": "^2.0.4",
     "typescript": "^7.0.2",
-    "vite": "^8.4.0",
-    "vite-plugin-solid": "^2.11.17"
+    "vite": "^8.4.0"
   }
 }

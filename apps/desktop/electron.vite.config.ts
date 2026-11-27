@@ -1,6 +1,6 @@
+import solid from '@solidjs/vite-plugin'
 import UnoCSS from '@unocss/vite'
 import { defineConfig, externalizeDepsPlugin } from 'electron-vite'
-import solid from 'vite-plugin-solid'
 
 export default defineConfig({
   main: {
