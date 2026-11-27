@@ -8,31 +8,30 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo dev --parallel",
-    "build": "turbo build",
-    "lint": "turbo lint",
-    "typecheck": "turbo check-types",
-    "check-types": "turbo check-types",
-    "test": "turbo test",
+    "dev": "bun run --filter='*' dev",
+    "build": "bun run --filter='*' build",
+    "lint": "bun run --filter='*' lint",
+    "typecheck": "bun run --filter='*' check-types",
+    "check-types": "bun run --filter='*' check-types",
+    "test": "bun run --filter='*' test",
     "format": "biome format --write .",
     "check": "bun run lint && bun run typecheck && bun run knip && bun run test && bun run build",
     "commitlint": "commitlint --edit",
     "knip": "knip",
     "prepare": "prek install || true",
-    "dev:web": "turbo dev --filter=web",
-    "dev:docs": "turbo dev --filter=docs",
-    "dev:desktop": "turbo dev --filter=desktop",
-    "dev:api": "turbo dev --filter=api",
-    "db:generate": "turbo db:generate --filter=api",
-    "db:migrate": "turbo db:migrate --filter=api",
-    "db:studio": "turbo db:studio --filter=api"
+    "dev:web": "bun run --filter=web dev",
+    "dev:docs": "bun run --filter=docs dev",
+    "dev:desktop": "bun run --filter=desktop dev",
+    "dev:api": "bun run --filter=api dev",
+    "db:generate": "bun run --filter=api db:generate",
+    "db:migrate": "bun run --filter=api db:migrate",
+    "db:studio": "bun run --filter=api db:studio"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.6.9",
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.4",
     "@j178/prek": "^0.5.12",
-    "knip": "^6.48.0",
-    "turbo": "^2.11.13"
+    "knip": "^6.48.0"
   }
 }

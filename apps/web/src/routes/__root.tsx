@@ -15,7 +15,7 @@ export const Route = createRootRoute({
       },
       {
         name: 'description',
-        content: 'A polished Bun + Turborepo template powered by TanStack Start.',
+        content: 'A polished Bun monorepo template powered by TanStack Start.',
       },
     ],
     links: [{ rel: 'stylesheet', href: appCss }],

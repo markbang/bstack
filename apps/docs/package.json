@@ -7,7 +7,7 @@
     "dev": "vite dev --port 3001",
     "build": "vite build",
     "preview": "vite preview --port 4174",
-    "check-types": "fumadocs-mdx && tsc --noEmit",
+    "check-types": "fumadocs-mdx && bun check --no-script",
     "lint": "biome check .",
     "postinstall": "fumadocs-mdx"
   },

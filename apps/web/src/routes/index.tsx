@@ -29,8 +29,8 @@ function Home() {
           <div className="mt-4 space-y-3 text-sm leading-6 text-white/72 md:text-base">
             <p>
               Web, docs, desktop, and API are already separated, but the shared developer experience
-              stays small: Bun for installs, Turbo for orchestration, Biome for consistency, and
-              UnoCSS for lightweight utilities and icons.
+              stays small: Bun for installs and workspace tasks, Biome for consistency, and UnoCSS
+              for lightweight utilities and icons.
             </p>
             <p>
               Tailwind CSS 4 remains in the React apps where HeroUI and Fumadocs require it, so the

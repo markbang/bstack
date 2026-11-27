@@ -8,7 +8,6 @@ on:
       - 'packages/**'
       - 'package.json'
       - 'bun.lock'
-      - 'turbo.json'
       - '.github/workflows/ci-web.yml'
   pull_request:
     paths:
@@ -16,7 +15,6 @@ on:
       - 'packages/**'
       - 'package.json'
       - 'bun.lock'
-      - 'turbo.json'
       - '.github/workflows/ci-web.yml'
 
 permissions:
@@ -34,8 +32,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.4.2
+          bun-version: 1.4.5
       - run: bun install --frozen-lockfile
-      - run: bun run lint --filter=web
-      - run: bun run check-types --filter=web
-      - run: bun run build --filter=web
+      - run: bun run --filter=web lint
+      - run: bun run --filter=web check-types
+      - run: bun run --filter=web build

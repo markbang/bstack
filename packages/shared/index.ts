@@ -3,13 +3,13 @@ import { entries, find, mapValues } from 'remeda'
 export const brand = {
   name: 'Elegant Stack',
   docsName: 'Elegant Stack Docs',
-  tagline: 'Bun + Turbo monorepo template',
+  tagline: 'Bun monorepo template',
   heroTitle: '一个适合继续扩展的全栈模板仓库。',
   heroDescription:
-    'Bun 管理依赖，Turbo 编排任务，Web / Docs / Desktop / API 四个应用各司其职，默认保留优雅的设计基线，而不是塞满样板噪音。',
+    'Bun 管理依赖并编排 workspace 任务，Web / Docs / Desktop / API 四个应用各司其职，默认保留优雅的设计基线，而不是塞满样板噪音。',
 } as const
 
-export const heroTags = ['bun', 'turbo', 'tanstack start', 'electron', 'hono', 'fumadocs'] as const
+export const heroTags = ['bun', 'tanstack start', 'electron', 'hono', 'fumadocs'] as const
 
 export const defaultCommands = ['bun install', 'bun run dev', 'bun run check'] as const
 

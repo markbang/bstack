@@ -15,7 +15,7 @@
     "build:linux": "bun run build && electron-builder --linux",
     "preview": "electron-vite preview",
     "lint": "biome check .",
-    "check-types": "tsc --noEmit -p tsconfig.node.json --composite false && tsc --noEmit -p tsconfig.web.json --composite false"
+    "check-types": "bun check -p tsconfig.node.json --no-script && bun check -p tsconfig.web.json --no-script"
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
