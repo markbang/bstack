@@ -6,7 +6,7 @@
     "dev": "vite dev --port 3000",
     "build": "vite build",
     "preview": "vite preview --port 4173",
-    "lint": "biome check .",
+    "lint": "bun lint --no-script",
     "check-types": "bun check --no-script",
     "test": "vitest run"
   },

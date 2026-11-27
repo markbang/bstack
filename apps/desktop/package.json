@@ -14,7 +14,7 @@
     "build:mac": "bun run build && electron-builder --mac",
     "build:linux": "bun run build && electron-builder --linux",
     "preview": "electron-vite preview",
-    "lint": "biome check .",
+    "lint": "bun lint --no-script",
     "check-types": "bun check -p tsconfig.node.json --no-script && bun check -p tsconfig.web.json --no-script"
   },
   "devDependencies": {

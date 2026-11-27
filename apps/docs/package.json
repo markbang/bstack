@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview --port 4174",
     "check-types": "fumadocs-mdx && bun check --no-script",
-    "lint": "biome check .",
+    "lint": "bun lint --no-script",
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
